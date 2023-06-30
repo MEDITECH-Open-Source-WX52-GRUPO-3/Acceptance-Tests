@@ -10,9 +10,9 @@ Criterio de aceptación #1
 
 Examples: 
     |     horario      |     medicina                 |       tratamientos              |       mensaje        |
-    |   "21/10/2022"   |   "Panadol"                  | "Chequearse cada fin de mes"    |   "Receta añadida"   |
-    |   "15/10/2022"   |   "Té"                       | "Chequearse cada año"           |   "Receta añadida"   |
-    |   "05/10/2022"   |   "Pastilla para la gripe"   | "Chequearse cada fin de semana" |   "Receta añadida"   |
+    |   "21/10/2023"   |   "Panadol"                  | "Chequearse cada fin de mes"    |   "Receta añadida"   |
+    |   "15/10/2023"   |   "Té"                       | "Chequearse cada año"           |   "Receta añadida"   |
+    |   "05/10/2023"   |   "Pastilla para la gripe"   | "Chequearse cada fin de semana" |   "Receta añadida"   |
 
 Criterio de aceptación #2
     Scenario: Ingreso correcto de datos
@@ -21,6 +21,6 @@ Criterio de aceptación #2
     Then sale un <mensaje> que que advierte que se ingresó un horario incorrecto
 
     |     horario           |     medicina                 |       tratamientos              |       mensaje            |
-    |   "21*!!/10/2022"     |   "Panadol"                  | "Chequearse cada fin de mes"    |   "Horario incorrecto"   |
-    |   "15---"#/10/2022"   |   "Té"                       | "Chequearse cada año"           |   "Horario incorrecto"   |
-    |   "05/10/2'|´¿++2022" |   "Pastilla para la gripe"   | "Chequearse cada fin de semana" |   "Horario incorrecto"   |
+    |   "21*!!/10/2023"     |   "Panadol"                  | "Chequearse cada fin de mes"    |   "Horario incorrecto"   |
+    |   "15---"#/10/2023"   |   "Té"                       | "Chequearse cada año"           |   "Horario incorrecto"   |
+    |   "05/10/2'|´¿++2023" |   "Pastilla para la gripe"   | "Chequearse cada fin de semana" |   "Horario incorrecto"   |

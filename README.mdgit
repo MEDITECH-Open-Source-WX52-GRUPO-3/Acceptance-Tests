@@ -1,1 +1,0 @@
-# Acceptance-Tests initgit add . git commit -m first commitgit branch -M maingit remote add origin https://github.com/MEDITECH-Open-Source-WX52-GRUPO-3/Acceptance-Tests.gitgit push -u origin main

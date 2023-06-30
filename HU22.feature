@@ -10,9 +10,9 @@ Criterio de aceptación #1
 
 Examples: 
     |          chequeos           |    fecha        |
-    |   "Chequeo de cardiología"  |  "10/10/2022"   |
-    |   "Chequeo de fisioterapia" |  "05/10/2022"   |
-    |   "Chequeo de vista"        |  "29/09/2022"   |
+    |   "Chequeo de cardiología"  |  "10/10/2023"   |
+    |   "Chequeo de fisioterapia" |  "05/10/2023"   |
+    |   "Chequeo de vista"        |  "29/09/2023"   |
 
 Criterio de aceptación #2
     Scenario: No se han realizado citas médicas

@@ -13,7 +13,7 @@ Criterio de aceptación #1
 
 Examples: 
     |            nombre               |         correo         |     ubicacion    | 
-    |   "Luis Alberto Pineda Ugas"    |    "luis@email.com"    |    "Trujillo"    |
+    |   "Kendall Ramiro Contreras Salazar"    |    "ken@email.com"    |    "Trujillo"    |
 
     | edad |    numero de celular    |    contraseña    |  
     |  18  |       999999999         |    "password"    |
@@ -31,7 +31,7 @@ Examples:
 
 Examples: 
     |            nombre               |         correo         |     ubicacion    | 
-    |   "Lu"#$1lberto Pineda Ugas"    |    "luis@email.com"    |    "Trujillo"    |
+    |   "Kend456all Ramiro Contreras Salazar"    |    "ken@email.com"    |    "Trujillo"    |
 
     | edad |    numero de celular    |    contraseña    |          mensaje          |
     |  18  |       999999999         |    "password"    |   "nombre no permitido"   |
@@ -49,7 +49,7 @@ Examples:
 
 Examples: 
     |            nombre               |         correo         |     ubicacion    | 
-    |   "Luis Alberto Pineda Ugas"    |    "luis@email.com"    |    "Tji!$llo"    |
+    |   "Kendall Ramiro Contreras Salazar"    |    "ken@email.com"    |    "Tji!$llo"    |
 
     | edad |    numero de celular    |    contraseña    |             mensaje          |
     |  18  |       999999999         |    "password"    |   "ubicacion no permitido"   |
@@ -67,7 +67,7 @@ Examples:
 
 Examples: 
     |            nombre               |         correo         |     ubicacion    | 
-    |   "Luis Alberto Pineda Ugas"    |    "luis@email.com"    |    "Tji!$llo"    |
+    |   "Kendall Ramiro Contreras Salazar"    |    "ken@email.com"    |    "Tji!$llo"    |
 
     | edad |    numero de celular    |    contraseña    |             mensaje          |
     |  18  |            9            |    "password"    |   "ubicacion no permitido"   |
